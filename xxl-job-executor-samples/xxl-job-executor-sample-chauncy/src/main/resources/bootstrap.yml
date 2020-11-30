@@ -1,0 +1,19 @@
+##server:
+##  port: ${SERVER_PORT:8885}
+##  servlet:
+##    context-path: /xxl-job-admin
+#spring:
+#  application:
+#    name: xxl-job-handler
+#  cloud:
+#    nacos:
+#      discovery:
+#        server-addr: ${REGISTER_HOST:service}:${REGISTER_PORT:8848}
+#      config:
+#        server-addr: ${REGISTER_HOST:service}:${REGISTER_PORT:8848}
+#        file-extension: properties
+##        refreshable-dataids: gateway-admin-dev.yml
+##        shared-dataids: gateway-admin-dev.yml
+#    sentinel:
+#      transport:
+#        dashboard: ${SENTINEL_DASHBOARD_HOST:service}:${SENTINEL_DASHBOARD_PORT:8021}
