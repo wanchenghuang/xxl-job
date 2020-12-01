@@ -1,6 +1,6 @@
 package com.xxl.job.executor;
 
-import com.chauncy.cloud.job.core.EnableXxlJob;
+import com.chauncy.base.job.core.EnableXxlJob;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
@@ -10,7 +10,7 @@ import org.springframework.context.annotation.ComponentScan;
  */
 @SpringBootApplication
 @EnableXxlJob
-@ComponentScan(basePackages = {"com.chauncy.cloud"})
+@ComponentScan(basePackages = {"com.chauncy.base"})
 public class XxlJobApplication {
 
 	public static void main(String[] args) {
